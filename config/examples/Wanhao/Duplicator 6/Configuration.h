@@ -1995,12 +1995,6 @@
 // SSD1306 OLED full graphics generic display
 //
 //#define U8GLIB_SSD1306
-<<<<<<< HEAD
-#define LCD_WIDTH 22
-#define LCD_HEIGHT 5
-#define LCD_RESET_PIN 5
-=======
->>>>>>> Wanhao D6 uses TINYBOY2 (#16117)
 
 //
 // SAV OLEd LCD module support using either SSD1306 or SH1106 based LCD modules
