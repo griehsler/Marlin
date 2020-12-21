@@ -1527,7 +1527,7 @@
 
 #if ENABLED(NOZZLE_PARK_FEATURE)
   // Specify a park position as { X, Y, Z_raise }
-  #define NOZZLE_PARK_POINT { (X_MIN_POS + 10), (Y_MAX_POS - 10), 20 }
+  #define NOZZLE_PARK_POINT { 0, 0, 20 }
   //#define NOZZLE_PARK_X_ONLY          // X move only is required to park
   //#define NOZZLE_PARK_Y_ONLY          // Y move only is required to park
   #define NOZZLE_PARK_Z_RAISE_MIN   2   // (mm) Always raise Z by at least this distance
@@ -2287,7 +2287,7 @@
 
 // Set number of user-controlled fans. Disable to use all board-defined fans.
 // :[1,2,3,4,5,6,7,8]
-//#define NUM_M106_FANS 1
+#define NUM_M106_FANS 1
 
 // Increase the FAN PWM frequency. Removes the PWM noise but increases heating in the FET/Arduino
 //#define FAST_PWM_FAN
