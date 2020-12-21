@@ -499,8 +499,8 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp 37.34
-    #define DEFAULT_Ki 0.98
+    #define DEFAULT_Kp  37.34
+    #define DEFAULT_Ki   0.98
     #define DEFAULT_Kd 353.88
   #endif
 #endif // PIDTEMP
@@ -825,7 +825,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+//#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
